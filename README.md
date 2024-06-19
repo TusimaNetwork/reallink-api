@@ -12,7 +12,8 @@
 POST  /user/registerweb3account
 ```
 
-Register in web3 server and generate bound web3 addresses for users
+> Register in web3 server and generate bound web3 addresses for users
+>
 
 
 
@@ -30,7 +31,7 @@ Register in web3 server and generate bound web3 addresses for users
 
 
 
-**request parameters**
+**Request parameters**
 
 | name        | position | type        | required | explain             | remark                                    |
 | ----------- | -------- | ----------- | -------- | ------------------- | ----------------------------------------- |
@@ -91,7 +92,8 @@ Status code **200**
 POST /user/update
 ```
 
-Update the user information in the web3server, and the different mobile phone numbers or different mailboxes of different platforms are regarded as different users
+> Update the user information in the web3server, and the different mobile phone numbers or different mailboxes of different platforms are regarded as different users
+>
 
 
 
@@ -107,7 +109,7 @@ Update the user information in the web3server, and the different mobile phone nu
 
 
 
-**required parameter** 
+**Required parameter** 
 
 | name        | position | type        | required | explain | remark |
 | ----------- | -------- | ----------- | -------- | ------- | ------ |
@@ -170,7 +172,8 @@ condition code **200**
 POST /user/delete
 ```
 
-According to email and channel, delete the user, delete as a soft deletion
+> According to email and channel, delete the user, delete as a soft deletion
+>
 
 
 
@@ -185,7 +188,7 @@ According to email and channel, delete the user, delete as a soft deletion
 
 
 
-**required parameter**
+**Required parameter**
 
 | name      | position | type    | required | explain           | remark |
 | --------- | -------- | ------- | -------- | ----------------- | ------ |
@@ -241,7 +244,8 @@ condition code **200**
 POST /order/purchasenft
 ```
 
-The app pushes the purchase nft request to the web3 server, and the web3server will initialize the order into the pending state, which will be issued by the web3server backend logic and nft
+> The app pushes the purchase nft request to the web3 server, and the web3server will initialize the order into the pending state, which will be issued by the web3server backend logic and nft
+>
 
 
 
@@ -260,7 +264,7 @@ The app pushes the purchase nft request to the web3 server, and the web3server w
 
 
 
-**required parameter**
+**Required parameter**
 
 | name                | position | type    | required | explain                           | remark |
 | ------------------- | -------- | ------- | -------- | --------------------------------- | ------ |
@@ -320,9 +324,10 @@ condition code **200**
 POST /user/login
 ```
 
-The web3 login interface, if there is an address, directly return, if there is no web3 address, generate and bind
-
-The web3 address
+> The web3 login interface, if there is an address, directly return, if there is no web3 address, generate and bind
+>
+> The web3 address
+>
 
 
 
@@ -339,7 +344,7 @@ The web3 address
 
  
 
-**required parameter**
+**Required parameter**
 
 | name      | position | type    | required | explain          | remark |
 | --------- | -------- | ------- | -------- | ---------------- | ------ |
@@ -395,7 +400,8 @@ condition code **200**
 POST /nft/addactivity
 ```
 
-Provide app squares to the ability to increase nft activity
+> Provide app squares to the ability to increase nft activity
+>
 
 
 
@@ -413,7 +419,7 @@ Provide app squares to the ability to increase nft activity
 
 
 
-**required parameter**
+**Required parameter**
 
 | name                 | position | type    | required | explain                  | remark |
 | -------------------- | -------- | ------- | -------- | ------------------------ | ------ |
@@ -472,7 +478,8 @@ condition code **200**
 POST /nft/updateactivity
 ```
 
-Modify the nft activity
+> Modify the nft activity
+>
 
 
 
@@ -488,7 +495,7 @@ Modify the nft activity
 
 
 
-**required parameter**
+**Required parameter**
 
 | name               | position | type        | required | explain                   | remark |
 | ------------------ | -------- | ----------- | -------- | ------------------------- | ------ |
@@ -546,7 +553,8 @@ condition code **200**
 POST /nft/deteteactivity
 ```
 
-Delete the nft activity
+> Delete the nft activity
+>
 
 
 
@@ -561,7 +569,7 @@ Delete the nft activity
 
 
 
-**required parameter**
+**Required parameter**
 
 | name      | position | type    | required | explain                | remark        |
 | --------- | -------- | ------- | -------- | ---------------------- | ------------- |
@@ -676,6 +684,6 @@ Other related technical means will be considered to increase interface security 
 
 
 
-# remark
+# Remark
 
 According to the development situation, this document is in constant adjustment and will be communicated when adjusting
