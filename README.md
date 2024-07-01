@@ -487,7 +487,7 @@ POST /nft/updateactivity
 
 ```json
 {
-  "nftActivityName": "jpnight ticket",
+  "nftActivityName": "jackchou ticket",
   "appName": "damai",
   "enftId": 63
  }
