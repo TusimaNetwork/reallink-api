@@ -1,5 +1,7 @@
 # Web2 services are connected to Web3 through Tusima
 
+[日本語版](README.ja.md)
+
   **v1.0.0**
 
 ## Default
