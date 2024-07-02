@@ -1,4 +1,4 @@
-# Web2 services are connected to Web3 through Tusima
+# Web 2サービスはTusimaを介してWeb 3に接続されている
 
 [English Version](README.md)
 
