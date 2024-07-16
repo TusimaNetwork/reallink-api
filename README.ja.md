@@ -5,6 +5,10 @@
 
   **v1.0.0**
 
+
+ご質問がある場合は、Discord に参加して質問してください。Discord: http://discord.gg/tusimanetwork
+
+
 ## Default
 
 

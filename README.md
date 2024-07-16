@@ -2,7 +2,10 @@
 
 [日本語版](README.ja.md)
 
+
   **v1.0.0**
+
+If you have any questions, please join the Discord:http://discord.gg/tusimanetwork
 
 ## Default
 
